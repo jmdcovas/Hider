@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF21CB8B1BDFD08900CFC370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21CB8A1BDFD08900CFC370 /* AppDelegate.swift */; };
+		DF21CB8D1BDFD08900CFC370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21CB8C1BDFD08900CFC370 /* ViewController.swift */; };
+		DF21CB901BDFD08900CFC370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF21CB8E1BDFD08900CFC370 /* Main.storyboard */; };
+		DF21CB921BDFD08900CFC370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF21CB911BDFD08900CFC370 /* Assets.xcassets */; };
+		DF21CB951BDFD08900CFC370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF21CB931BDFD08900CFC370 /* LaunchScreen.storyboard */; };
+		DF21CBA01BDFD08900CFC370 /* HiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21CB9F1BDFD08900CFC370 /* HiderTests.swift */; };
+		DF21CBAB1BDFD08900CFC370 /* HiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21CBAA1BDFD08900CFC370 /* HiderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF21CB9C1BDFD08900CFC370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF21CB7F1BDFD08900CFC370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF21CB861BDFD08900CFC370;
+			remoteInfo = Hider;
+		};
+		DF21CBA71BDFD08900CFC370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF21CB7F1BDFD08900CFC370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF21CB861BDFD08900CFC370;
+			remoteInfo = Hider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF21CB871BDFD08900CFC370 /* Hider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21CB8A1BDFD08900CFC370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF21CB8C1BDFD08900CFC370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF21CB8F1BDFD08900CFC370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF21CB911BDFD08900CFC370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF21CB941BDFD08900CFC370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF21CB961BDFD08900CFC370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF21CB9B1BDFD08900CFC370 /* HiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21CB9F1BDFD08900CFC370 /* HiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiderTests.swift; sourceTree = "<group>"; };
+		DF21CBA11BDFD08900CFC370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF21CBA61BDFD08900CFC370 /* HiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21CBAA1BDFD08900CFC370 /* HiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiderUITests.swift; sourceTree = "<group>"; };
+		DF21CBAC1BDFD08900CFC370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF21CB841BDFD08900CFC370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CB981BDFD08900CFC370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CBA31BDFD08900CFC370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF21CB7E1BDFD08900CFC370 = {
+			isa = PBXGroup;
+			children = (
+				DF21CB891BDFD08900CFC370 /* Hider */,
+				DF21CB9E1BDFD08900CFC370 /* HiderTests */,
+				DF21CBA91BDFD08900CFC370 /* HiderUITests */,
+				DF21CB881BDFD08900CFC370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF21CB881BDFD08900CFC370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF21CB871BDFD08900CFC370 /* Hider.app */,
+				DF21CB9B1BDFD08900CFC370 /* HiderTests.xctest */,
+				DF21CBA61BDFD08900CFC370 /* HiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF21CB891BDFD08900CFC370 /* Hider */ = {
+			isa = PBXGroup;
+			children = (
+				DF21CB8A1BDFD08900CFC370 /* AppDelegate.swift */,
+				DF21CB8C1BDFD08900CFC370 /* ViewController.swift */,
+				DF21CB8E1BDFD08900CFC370 /* Main.storyboard */,
+				DF21CB911BDFD08900CFC370 /* Assets.xcassets */,
+				DF21CB931BDFD08900CFC370 /* LaunchScreen.storyboard */,
+				DF21CB961BDFD08900CFC370 /* Info.plist */,
+			);
+			path = Hider;
+			sourceTree = "<group>";
+		};
+		DF21CB9E1BDFD08900CFC370 /* HiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF21CB9F1BDFD08900CFC370 /* HiderTests.swift */,
+				DF21CBA11BDFD08900CFC370 /* Info.plist */,
+			);
+			path = HiderTests;
+			sourceTree = "<group>";
+		};
+		DF21CBA91BDFD08900CFC370 /* HiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF21CBAA1BDFD08900CFC370 /* HiderUITests.swift */,
+				DF21CBAC1BDFD08900CFC370 /* Info.plist */,
+			);
+			path = HiderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF21CB861BDFD08900CFC370 /* Hider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF21CBAF1BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "Hider" */;
+			buildPhases = (
+				DF21CB831BDFD08900CFC370 /* Sources */,
+				DF21CB841BDFD08900CFC370 /* Frameworks */,
+				DF21CB851BDFD08900CFC370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hider;
+			productName = Hider;
+			productReference = DF21CB871BDFD08900CFC370 /* Hider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF21CB9A1BDFD08900CFC370 /* HiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF21CBB21BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "HiderTests" */;
+			buildPhases = (
+				DF21CB971BDFD08900CFC370 /* Sources */,
+				DF21CB981BDFD08900CFC370 /* Frameworks */,
+				DF21CB991BDFD08900CFC370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF21CB9D1BDFD08900CFC370 /* PBXTargetDependency */,
+			);
+			name = HiderTests;
+			productName = HiderTests;
+			productReference = DF21CB9B1BDFD08900CFC370 /* HiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF21CBA51BDFD08900CFC370 /* HiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF21CBB51BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "HiderUITests" */;
+			buildPhases = (
+				DF21CBA21BDFD08900CFC370 /* Sources */,
+				DF21CBA31BDFD08900CFC370 /* Frameworks */,
+				DF21CBA41BDFD08900CFC370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF21CBA81BDFD08900CFC370 /* PBXTargetDependency */,
+			);
+			name = HiderUITests;
+			productName = HiderUITests;
+			productReference = DF21CBA61BDFD08900CFC370 /* HiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF21CB7F1BDFD08900CFC370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = vtuga;
+				TargetAttributes = {
+					DF21CB861BDFD08900CFC370 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DF21CB9A1BDFD08900CFC370 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DF21CB861BDFD08900CFC370;
+					};
+					DF21CBA51BDFD08900CFC370 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DF21CB861BDFD08900CFC370;
+					};
+				};
+			};
+			buildConfigurationList = DF21CB821BDFD08900CFC370 /* Build configuration list for PBXProject "Hider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF21CB7E1BDFD08900CFC370;
+			productRefGroup = DF21CB881BDFD08900CFC370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF21CB861BDFD08900CFC370 /* Hider */,
+				DF21CB9A1BDFD08900CFC370 /* HiderTests */,
+				DF21CBA51BDFD08900CFC370 /* HiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF21CB851BDFD08900CFC370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21CB951BDFD08900CFC370 /* LaunchScreen.storyboard in Resources */,
+				DF21CB921BDFD08900CFC370 /* Assets.xcassets in Resources */,
+				DF21CB901BDFD08900CFC370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CB991BDFD08900CFC370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CBA41BDFD08900CFC370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF21CB831BDFD08900CFC370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21CB8D1BDFD08900CFC370 /* ViewController.swift in Sources */,
+				DF21CB8B1BDFD08900CFC370 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CB971BDFD08900CFC370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21CBA01BDFD08900CFC370 /* HiderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF21CBA21BDFD08900CFC370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21CBAB1BDFD08900CFC370 /* HiderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF21CB9D1BDFD08900CFC370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF21CB861BDFD08900CFC370 /* Hider */;
+			targetProxy = DF21CB9C1BDFD08900CFC370 /* PBXContainerItemProxy */;
+		};
+		DF21CBA81BDFD08900CFC370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF21CB861BDFD08900CFC370 /* Hider */;
+			targetProxy = DF21CBA71BDFD08900CFC370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF21CB8E1BDFD08900CFC370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF21CB8F1BDFD08900CFC370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF21CB931BDFD08900CFC370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF21CB941BDFD08900CFC370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF21CBAD1BDFD08900CFC370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF21CBAE1BDFD08900CFC370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF21CBB01BDFD08900CFC370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.Hider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF21CBB11BDFD08900CFC370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.Hider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF21CBB31BDFD08900CFC370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.HiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hider.app/Hider";
+			};
+			name = Debug;
+		};
+		DF21CBB41BDFD08900CFC370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.HiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hider.app/Hider";
+			};
+			name = Release;
+		};
+		DF21CBB61BDFD08900CFC370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.HiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF21CBB71BDFD08900CFC370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vtuga.HiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF21CB821BDFD08900CFC370 /* Build configuration list for PBXProject "Hider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21CBAD1BDFD08900CFC370 /* Debug */,
+				DF21CBAE1BDFD08900CFC370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF21CBAF1BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "Hider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21CBB01BDFD08900CFC370 /* Debug */,
+				DF21CBB11BDFD08900CFC370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF21CBB21BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "HiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21CBB31BDFD08900CFC370 /* Debug */,
+				DF21CBB41BDFD08900CFC370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF21CBB51BDFD08900CFC370 /* Build configuration list for PBXNativeTarget "HiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21CBB61BDFD08900CFC370 /* Debug */,
+				DF21CBB71BDFD08900CFC370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF21CB7F1BDFD08900CFC370 /* Project object */;
+}
